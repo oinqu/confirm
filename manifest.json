@@ -1,0 +1,21 @@
+{
+    "name": "Confirmator",
+    "version": "0.0.1",
+    "manifest_version": 1,
+    "description": "Confirming stuff",
+    "homepage_url": "https://github.com/oinqu",
+    "background": {
+      "scripts": [
+        "background.js"
+      ],
+      "persistent": true
+    },
+    "browser_action": {
+      "default_title": "Confirm!"
+    },
+    "permissions": [
+      "activeTab",
+      "https://*/*",
+      "http://*/*"
+    ]
+  }
